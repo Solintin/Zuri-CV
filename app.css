@@ -37,7 +37,7 @@ header .name .alley {
   padding: 0 10px 0 70px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(3, 1fr);
   margin-bottom: 50px;
 }
@@ -91,4 +91,3 @@ header .name .alley {
     margin: 15px 0;
   }
 }
-/*# sourceMappingURL=app.css.map */
