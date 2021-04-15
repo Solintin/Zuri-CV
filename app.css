@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+header {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 30px 0;
+  text-align: center;
+  background: #f1f1f1;
+  position: relative;
+}
+
+header .name {
+  position: absolute;
+  border: 2px solid orange;
+  top: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 10px 30px;
+  text-align: inherit;
+  left: 50%;
+  background: #fff;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+header .name .alley {
+  text-shadow: 5px -5px orange;
+}
+
+.container {
+  margin: 10px 0;
+  padding: 0 10px 0 70px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 50px;
+}
+
+.container .partB {
+  padding-left: 30px;
+  border-left: 2px solid orange;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2 / 4;
+  margin-bottom: 50px;
+}
+
+.container .partA {
+  text-align: right;
+  padding-right: 15px;
+}
+
+.container .partA li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+.container h3 {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.container ul {
+  padding-left: 50px !important;
+}
+
+@media screen and (max-width: 560px) {
+  .container {
+    padding: 5px 20px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .container .partB {
+    -ms-grid-column: 1;
+    grid-column: 1 / 1;
+    border-top: 2px solid orange;
+    border-left: 0;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  .container .partA {
+    text-align: left;
+  }
+  .container .partA div {
+    margin: 15px 0;
+  }
+}
+/*# sourceMappingURL=app.css.map */
