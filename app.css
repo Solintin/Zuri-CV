@@ -69,6 +69,22 @@ header .name .alley {
 .container ul {
   padding-left: 50px !important;
 }
+.powered {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.powered img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+body{
+  background: rgba(245, 245, 245, 0.521);
+}
 
 @media screen and (max-width: 560px) {
   .container {
